@@ -21,10 +21,10 @@
   <li>
     <a href="#status">Project status</a>
   </li>
-  </ul>
+</ul>
   <h2 id="generalInfo">General info</h2>
   <p>The goal of this application was to create a 2D game using objective c++ and its advanced features: smart pointers, containers
-  from stl library and stl iterators. 
+  from stl library and stl iterators. </p>
   <p>Speaking of the application itself, it's rather similar to a classic snake game that came out a very long time ago.
 Nevertheless, it has couple of tricks which the first implementation of snake didn't have. 
 <ul>
@@ -34,7 +34,7 @@ Nevertheless, it has couple of tricks which the first implementation of snake di
   <li>There are two kind of fruits, one of them are classic apples which appear randomly on screen and new
     apple comes out as soon as the previous had been eaten.
     The second, random items which appear in random periods of time in random places on screen.</li>
-</ul></p>
+ </ul>
 </p>
     <h2 id="images">Images</h2>
     <img src="https://user-images.githubusercontent.com/56251920/154549353-0a9e57fb-6c31-4071-83a2-a4b4f88c11cb.png"></img>
@@ -58,7 +58,7 @@ Nevertheless, it has couple of tricks which the first implementation of snake di
       <li>Use <strong>p</strong> if you want to pause the game.</li>
     </ul>
   </li>
-  </ul>
+  </ol>
   <h2 id="technologies">Technologies used</h2> 
  <ul>
   <li>
