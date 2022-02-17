@@ -7,28 +7,34 @@
     <a href="#generalInfo">General info</a>
   </li>
    <li>
-    <a href="/README.md/#images">Images</a>
+    <a href="#images">Images</a>
   </li>
   <li>
-    <a href="/README.md/#howToPlay">How to play</a>
+    <a href="#howToPlay">How to play</a>
   </li>
   <li>
-    <a href="/README.md/#technologies">Technologies used</a>
+    <a href="#technologies">Technologies used</a>
   </li>
    <li>
-    <a href="/README.md/#environment">Programming environment</a>
+    <a href="#environment">Programming environment</a>
   </li>
   <li>
-    <a href="/README.md/#status">Project status</a>
+    <a href="#status">Project status</a>
   </li>
   </ul>
   <h2 id="generalInfo">General info</h2>
-  <p>The goal of this application was to implement an alghoritm, which changes image contrast, in both c# and asm and compares their execution times.
-So as to examine alghoritms execution times a comparison was made between images of diffrent quality. Each alghoritm (asm, c#, optimized c#) 
-  performed image contrast processing on the same photos using the same contrast factor value. Immediately, it turned out that the fastest alghoritm was
-  the one written in assembly. Alghoritm implemented in c# with Microsoft optimization turned on was almost two times slower. Shockingly, when optimization 
-  was turned off, it took almost 10 times more time for c# alghoritm to perform the same image processing compared to asm.
-  Detailed results of the comparison are below in images section.
+  <p>The goal of this application was to create a 2D game using objective c++ and its advanced features: smart pointers, containers
+  from stl library and stl iterators. 
+  <p>Speaking of the application itself, it's rather similar to a classic snake game that came out a very long time ago.
+Nevertheless, it has couple of tricks which the first implementation of snake didn't have. 
+<ul>
+  <li>There are bombs which appear out of the blue and can end game if hit.</li>
+  <li>Snake can shoot to fruits and bombs.</li>
+  <li>Snake can accelerate with a push of a button.</li>
+  <li>There are two kind of fruits, one of them are classic apples which appear randomly on screen and new
+    apple comes out as soon as the previous had been eaten.
+    The second, random items which appear in random periods of time in random places on screen.</li>
+</ul></p>
 </p>
     <h2 id="images">Images</h2>
     <img src="https://user-images.githubusercontent.com/56251920/154549353-0a9e57fb-6c31-4071-83a2-a4b4f88c11cb.png"></img>
